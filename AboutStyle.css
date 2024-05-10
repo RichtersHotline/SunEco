@@ -1,0 +1,290 @@
+.Container {
+	width:990px;
+	height:auto;
+	display:flex;
+	margin:auto;
+	flex-wrap:wrap;
+	
+}
+.Header {
+	background-color:#197b30;
+	width:990px;
+	height:100px;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.Header h1 { 
+color:white;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+margin-top:58px;
+margin-right:150px;
+font-family:Arial;
+
+}
+.active {
+  background-color:#031a07;
+}
+.NavBarBG {
+	background-color:#0c4018;
+	width:990px;
+	height:40px;
+	text-align:center;
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	display:inline-block;
+	text-align:center;
+
+}
+nav li {
+    display: inline-block;
+   text-align:center; 
+	
+}
+nav li a {
+	display:block;
+	color:white;
+	padding:14px 16px;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:15px;
+}
+ nav li a:hover {
+	background-color:#197b30;
+}
+.SecondaryBanner {
+	background-color:#005e20;
+	width:990px;
+	height:330px;
+	
+	
+}
+.BannerBig1 {
+	margin-top:5px;
+	margin-left:10px;
+	Display:flex;
+	
+}
+.BannerSmall1 {
+	margin-left:15px;
+	
+}
+.BannerSmall2 {
+	
+	margin-right:15px;
+}
+.Spacebetween {
+	background-color:#197b30;
+	width:990px;
+	height:100;
+	text-align:center;
+	
+	
+}
+.Spacebetween H1 {
+	font-size:45px;
+	margin-top:18px;
+	font-family:arial;
+	color:white;
+    text-shadow: 3px 3px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	letter-spacing:5px;
+	
+}
+.MainContent {
+	background-color:#005e20;
+	width:990px;
+	height:auto;
+	display:flex;
+    justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.Box1 {
+	width:450px;
+	height:330px;
+	border:2px black solid;
+	background-color:white;
+	margin-top:10px;
+	margin-left:7px;
+	display:flex;
+	font-family:Consolas;
+	font-size:19px;
+	
+}
+.nights {
+text-align:left;
+
+	
+}
+
+	.Price {
+		margin-top:150px;
+		display:flex;
+		flex-direction:row;
+		text-align:left;
+		font-family:Consolas;
+		
+	}
+	.BookBTN {
+		background-color:#05da6d;
+		border:none;
+		width:130px;
+		height:40px;
+		border-radius:15px;
+		color:white;
+		margin-right:-40px;
+		font-size:15px;
+		font-family:Consolas;
+	}
+	.ImgDest {
+		display:flex;
+		flex-direction:column;
+	  flex-wrap:wrap;
+	
+		
+	}
+	.Iconimg {
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	
+		
+	}
+	.FootBoom {
+		background-color:#0c4018;
+		width:990px;
+		height:auto;
+		justify-content:space-between;
+		flex-wrap:wrap;
+		
+		
+	}
+	.FooterContent {
+		color:white;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+font-family:Arial;
+
+		
+	}
+		.FooterContent h1 {
+			margin-left:130px;
+			
+		}
+	.NavBarBottom {
+		font-size:14px;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		
+		
+	}
+	.Socials {
+	display:flex;
+    align-items: flex-start;
+	flex-direction:row;
+	text-align:center;
+	}
+	.Newsletter {
+		display:flex;
+		flex-direction:row;
+		
+	}
+.Emailbox {
+	border-radius:10px;
+	height:29px;
+   border:none;
+   margin-left:15px;
+   font-family:consolas;
+   box-shadow:2px 2px black;
+}
+::placeholder {
+	color:gray;
+	font-family:Consolas
+}
+.Email {
+	display:flex;
+	flex-direction:row;
+}
+.BTNSub {
+	margin-left:15px;
+	border-radius:10px;
+	border:none;
+	font-family:consolas;
+	box-shadow:2px 2px black;
+	
+}
+.FooterLists {
+	text-decoration:none;
+	list-style-type:none;
+	display:flex;
+	text-align:center;
+	font-size:29px;
+	margin-left:35px;
+}
+.endcontainer {
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+.end {
+	text-align:center;
+	list-style-type:none;
+	color:white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family:arial;
+display:flex;
+j
+	
+}
+.ListHead {
+	font-size:25px;
+	list-style-type:none;
+	
+}
+.RemovalOfDot {
+list-style-type:none;	
+	
+}
+.Copyright {
+display:flex;
+justify-content:flex-end;	
+	color:white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family:arial;
+	font-size:10px;
+margin-right:10px;	
+}
+.bottomColor {
+	background-color:#005e20;
+	width:990px;
+	height:40px;
+	
+	
+}
+.HeadertxtContainer {
+	background-color:black;
+	width:990px;
+	height:auto;
+	text-align:center;
+	color:white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+
+}
+.TxtContainer {
+	background-color:#051c0b;
+	width:990px;
+	height:auto;
+	text-align:center;
+	font-family:Helvetica;
+	color:white;
+    text-shadow:1px 1px black;
+	
+}
+.BottomBG {
+	background-color:#005e20;
+	
+}
